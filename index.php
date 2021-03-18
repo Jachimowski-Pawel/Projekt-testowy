@@ -4,7 +4,7 @@
         <body>
                 <?php 
                 echo("<h1>docker-działa</h2>");
-                echo("<h2>docker-(...)");
+                echo("<h2>docker-zmiana");
                 require("connect.php");
                     $sql="SELECT*FROM pracownicy";
                     echo("<h2>Polecenie: Wszyscy pracownicy </h2>".$sql);
