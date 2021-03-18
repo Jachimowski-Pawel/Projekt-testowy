@@ -20,7 +20,8 @@
                                 echo("</tr>");
                             };
                          echo("</table>");
-                   
+                $d=strtotime("now");
+                echo "<li>".date("Y-m-d h:i:sa", $d) . "<br>";                   
                 ?>
         </body>
 </html>
